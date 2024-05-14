@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-block: 80px;
+    color: black;
+}
+.content h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+.content p {
+    font-size: 35px;
+    text-align: center;
+}
+.content button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+.content button:hover{
+    background-color: green;
+}
+.content button:active {
+    border-style: inset;
+}
